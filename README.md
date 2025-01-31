@@ -1,7 +1,5 @@
 # 🔍 Multi-Agent Research Assistant 🤖📚
 
-![Workflow Diagram](https://via.placeholder.com/800x400.png?text=Research+Workflow+Diagram+%7C+Add+Your+Architecture+Image+Here)
-
 An AI-powered research assistant combining multiple data sources and validation agents for reliable information analysis. 🌐🔬✅
 
 ## 🚀 Features
@@ -36,19 +34,3 @@ cp .env.example .env
 
 # 🚀 Launch the app
 streamlit run research_assistant.py
-
-# 🗺️ Architecture
-%%{init: {'theme': 'forest'}}%%
-graph TD
-    A[User Question] --> B[Wikipedia Loader]
-    A --> C[Arxiv Loader]
-    A --> D[Query Translator]
-    D --> E[Tavily Web Search]
-    B --> F[Retriever]
-    C --> F
-    E --> F
-    F --> G[Summarizer]
-    G --> H[Fact Checker]
-    H --> I[Error Detector]
-    I -->|Errors Found| A
-    I -->|Clean Output| J[📄 Results]
