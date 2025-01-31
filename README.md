@@ -34,3 +34,7 @@ cp .env.example .env
 
 # 🚀 Launch the app
 streamlit run research_assistant.py
+
+# Graph Flow
+![Alt Text](images/output.png)
+
