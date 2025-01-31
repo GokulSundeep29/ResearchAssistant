@@ -5,6 +5,6 @@
 __pycache__/        # Python bytecode cache
 
 # 📓 Jupyter Notebooks
-research_assistant.ipynb  # Specific notebook to ignore
+*.ipynb  # Specific notebook to ignore
 
 .DS_Store
