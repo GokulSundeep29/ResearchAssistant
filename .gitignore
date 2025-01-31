@@ -3,13 +3,8 @@
 
 # 🐍 Python & Conda
 __pycache__/        # Python bytecode cache
-*.py[cod]           # Python compilation artifacts
-.python-version     # Python version file
-.conda/             # Conda environment directory
-venv/               # Virtual environment
-env/                # Alternative env folder
-*.egg-info/         # Python package metadata
-.ipynb_checkpoints/ # Jupyter checkpoint folder
 
 # 📓 Jupyter Notebooks
 research_assistant.ipynb  # Specific notebook to ignore
+
+.DS_Store
