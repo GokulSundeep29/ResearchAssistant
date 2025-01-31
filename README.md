@@ -36,5 +36,5 @@ cp .env.example .env
 streamlit run research_assistant.py
 
 # Graph Flow
-![Alt Text](images/output.png)
+![Alt Text](https://github.com/GokulSundeep29/ResearchAssistant/blob/main/images/output.png)
 
